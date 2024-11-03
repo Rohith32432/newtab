@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrpict.js" defer></script>
+</head>
+<body>
+   
+
+    <div class="container">
+        <div class="pic">
+            <img src="Union.svg" alt="">
+        </div>
+        <div class="name">
+           <input type="text" placeholder="Enter URL">
+        </div>
+     
+        <button class="new-button">New</button>
+       
+    </div>
+    
+
+      <!-- Modal for adding new link -->
+      <div class="modal" id="modal">
+        <div class="modal-content">
+            <h2>Add New Link</h2>
+            <div class="names">
+                <input type="text" id="nameInput" placeholder="Enter name">
+                <input type="text" id="shortcut" placeholder="Enter shortcut" >
+            </div>
+            <input type="text" id="urlInput" placeholder="Enter URL" required>
+            <button id="submitBtn">Save</button>
+        </div>
+    </div>
+
+
+   
+</body>
+</html>
